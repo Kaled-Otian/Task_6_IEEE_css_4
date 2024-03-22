@@ -1,0 +1,234 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 800px;
+    display: flex;
+    gap: 15px;
+    background-color: #acacac;
+    margin: 100px auto;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 14px;
+}
+
+.parent div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.parent .full {
+    background-color: #ccc;
+    gap: 15px;
+}
+
+.parent .r2 div {
+    flex-basis: calc(100%/3);
+    background-color: #ccc;
+}
+
+.r3 div {
+    flex-basis: calc(100%/2);
+    background-color: #ccc;
+}
+
+.r4 div {
+    flex-basis: calc(100%/4);
+    background-color: #ccc;
+}
+
+/* ============Seperator=========== */
+/* div {
+    position: relative;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: #eee;
+    border: 3px solid;
+    border-color: #f44336 #2196f3 #f44336 #2196f3;
+}
+
+.top-left {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: #2196f3;
+    top: -15px;
+    left: -15px;
+    color: white;
+    border-right: #f44336 solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-left {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: #2196f3;
+    bottom: -15px;
+    left: -15px;
+    color: white;
+    border-right: #f44336 solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-right {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: #2196f3;
+    bottom: -15px;
+    right: -15px;
+    color: white;
+    border-left: #f44336 solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: #2196f3;
+    top: -15px;
+    right: -15px;
+    color: white;
+    border-left: #f44336 solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* ============Seperator=========== */
+/* ul:not(.three) {
+    list-style: none;
+    width: 300px;
+    padding: 30px;
+}
+
+ul:not(.three)>li {
+    background-color: #eee;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+
+ol>li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 20px;
+}
+
+.treee {
+    width: 300px;
+    padding: 30px;
+}
+
+.three li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 20px;
+} */
+
+/* ============Seperator=========== */
+/* table {
+    border: 1px solid white;
+    border-bottom: 1px solid green;
+    width: 700px;
+    background-color: #eee;
+}
+
+thead {
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+td {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+span:first-of-type {
+    background-color: rgb(0, 0, 251);
+    color: white;
+    padding: 3px;
+}
+
+span:last-of-type {
+    background-color: rgb(246, 17, 17);
+    color: white;
+    padding: 3px;
+} */
+/* ============Seperator=========== */
+/*div:first-of-type {
+    background-color: #eee;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+div:nth-of-type(2) {
+    width: 300px;
+    height: 60px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+div:last-of-type {
+    background-color: #eee;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+/* ============Seperator=========== */
+/*p {
+    margin: 10px auto;
+    background-color: #eee;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+p::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: red;
+    right: 0;
+    top: 0;
+}
+p::before {
+    position: absolute;
+    content: "1";
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    left: -40px;
+    top: 0;
+    color: white;
+}*/
